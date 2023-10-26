@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape") ;
+}
+
+.caixa_maior{
+    background-color: aquamarine;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: rgb(225, 255, 255);
+    color: #fff;
+    width:  calc(100% -100px);
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    float: right;
+}
+.imagem_busca{
+    width: 20px;
+}
+.caixa_media{
+    margin-top: 30px;
+}
+
+.cidade{
+    color:black ;
+    font-size: 20px;
+    font-weight: 300;
+}
+.temp{
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.caixapequena{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.cidade{
+    color: black;
+    font-size: 50px;
+    
+}
+p{
+    color: black;
+    font-size: 30px
+}
